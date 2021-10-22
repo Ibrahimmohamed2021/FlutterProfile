@@ -66,10 +66,9 @@ class MyHome extends StatelessWidget{
      ),
      backgroundColor: Colors.white,
 
-     //body => Column > children [red Container, black Container, white Container]
+     
      body: Column(
        children: [
-         //big Container
          Container(
 
 
@@ -108,7 +107,7 @@ class MyHome extends StatelessWidget{
          ),
 
 
-//White Container
+
          Container(
 
 
@@ -172,7 +171,6 @@ class MyHome extends StatelessWidget{
 
 
 
-         //black Container
          Container(
            margin: const EdgeInsets.only(top: 0),
 
