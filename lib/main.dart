@@ -7,6 +7,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/avd.dart';
 import 'package:icon/icon.dart';
 import 'package:fluttericon/typicons_icons.dart';
+import 'package:antdesign_icons/antdesign_icons.dart';
 
 
 
@@ -189,7 +190,7 @@ class MyHome extends StatelessWidget{
 
                ContactCard(contactText:
 
-              '       Github', iconData: Icons.cloud_circle, url: 'https://github.com/Ibrahimmohamed2021'),
+              '       Github', iconData: AntIcons.githubOutlined, url: 'https://github.com/Ibrahimmohamed2021'),
 
 
                ContactCard(contactText: '       Facebook', iconData: Icons.facebook, url: 'https://www.facebook.com/profile.php?id=100070795855375', ),
@@ -237,7 +238,7 @@ class ContactCard extends StatelessWidget {
 
       shadowColor: Colors.black,
 
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(300),side: BorderSide(color: Colors.black, width: 1.0,)),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(300),side: const BorderSide(color: Colors.black, width: 1.0,)),
 
        // shape: StadiumBorder(
       //   side: BorderSide(
@@ -254,7 +255,7 @@ class ContactCard extends StatelessWidget {
         leading: Icon(
           iconData,
           color: Colors.lightBlueAccent,
-          size: 21,
+          size: 15,
 
         ),
         title: Text(

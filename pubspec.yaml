@@ -38,6 +38,7 @@ dependencies:
   flutter_svg: ^0.23.0+1
   icon: ^2.2.1
   fluttericon: ^2.0.0
+  antdesign_icons: ^0.0.3
 
 dev_dependencies:
   flutter_test:
